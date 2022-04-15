@@ -12,7 +12,7 @@
     $second_array=array('c2','c4');
     $filtered_array=array_diff_key($first_array, array_flip( $second_array));
 
-    print_r ($filtered_array);
+    print_r($filtered_array);
 
     ?>
 </body>
